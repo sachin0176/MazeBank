@@ -1,0 +1,28 @@
+.feedback_container{
+    -fx-background-color: #EEEEEE;
+    -fx-spacing:20;
+    -fx-padding: 15;
+    -fx-alignment:center;
+}
+
+.feedback_container TextArea {
+-fx-background-color: #FFFFFF;
+-fx-effect: dropshadow(three-pass-box, #AAAAAA, 3,0,0,3);
+-fx-font-size: 1.5em;
+-fx-padding: 5;
+
+}
+
+.feedback_container Button {
+    -fx-background-color: linear-gradient(to right,#132A32, #253F25);
+    -fx-font-size:1.5em;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-width: 125;
+}
+.feedback_container Button:hover {
+    -fx-cursor: hand;
+}
+
+.feedback_container Button FontAwesomeIconView{
+    -fx-fill: #FFFFFF;
+}

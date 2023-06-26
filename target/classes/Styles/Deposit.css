@@ -1,0 +1,63 @@
+.deposit_container{
+    -fx-background-color: #EEEEEE;
+}
+
+.search_box {
+    -fx-spacing:10;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #AAAAAA;
+}
+
+
+Text {
+    -fx-font-family: "Calibri Light";
+    -fx-fill: #555555;
+    -fx-font-size: 1.6em;
+
+}
+TextField {
+    -fx-background-color: #FFFFFF;
+    -fx-pref-width: 200;
+    -fx-pref-height: 35;
+    -fx-effect: dropshadow(three-pass-box , #AAAAAA, 3,0,0,3);
+
+}
+
+Button {
+    -fx-background-color: linear-gradient(to right, #132A32, #253F25);
+    -fx-effect: dropshadow(three-pass-box , #AAAAAA, 3,0,0,3);
+    -fx-font-size: 1.6em;
+    -fx-pref-width: 200;
+    -fx-font-family: "Calibri Light";
+    -fx-text-fill: #FFFFFF;
+
+}
+
+ Button:hover {
+    -fx-cursor: hand;
+
+}
+
+
+
+
+.list-view {
+ -fx-background-color: #EEEEEE;
+  -fx-border-width:0;
+}
+
+.list-cell {
+     -fx-padding: 20 0 20 0;
+     -fx-background-color: #EEEEEE;
+}
+
+.deposit_box {
+    -fx-padding: 15;
+    -fx-spacing: 15;
+}
+.label{
+-fx-font-size:1.3em;
+-fx-text-fill: #0000EE;
+}
+
+
