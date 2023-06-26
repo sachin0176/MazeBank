@@ -1,0 +1,52 @@
+.profile_container {
+-fx-background-color:#EEEEEE;
+}
+
+.profile_container Text{
+-fx-fill: #888888;
+-fx-font-size:1.4em;
+-fx-font-family: "Calibri Light";
+}
+
+.profile_container VBox{
+-fx-spacing : 20;
+-fx-padding :15;
+}
+.profile_container .vbox_border{
+ -fx-border-width:0 0 0 1;
+    -fx-border-color:#888888;
+
+}
+
+.profile_container HBox {
+    -fx-spacing:20;
+    -fx-alignment:center_left;;
+
+}
+
+.profile_container HBox Text{
+    -fx-font-size:1.5em;
+}
+
+.profile_container HBox Label{
+    -fx-background-color:#FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size:1.6em;
+    -fx-font-family:"Calibri Light";
+}
+.button{
+      -fx-background-color :linear-gradient(to right,#132A32,#253F25);
+      -fx-effect:dropshadow(three-pass-box, #AAAAAA, 3 ,0 ,0 , 3);
+      -fx-font-size:1.5em;
+      -fx-pref-width: 200;
+      -fx-text-fill:#FFFFFF;
+      -fx-font-family:"Calibri Light";
+}
+
+.button FontAwesomeIconView{
+    -fx-fill: #FFFFFF;
+}
+
+.button:hover{
+    -fx-cursor:hand;
+}

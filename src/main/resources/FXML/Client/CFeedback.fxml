@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="400.0" prefWidth="500.0" styleClass="feedback_container" stylesheets="@../../Styles/CFeedback.css"
+      xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.jmc.mazebank.controller.client.CFeedbackController">
+   <TextArea fx:id="fd_fld" prefHeight="200.0" prefWidth="300.0"/>
+   <Button fx:id="send_btn" mnemonicParsing="false" text="Send">
+      <graphic>
+         <FontAwesomeIconView glyphName="SEND" size="18"/>
+      </graphic>
+   </Button>
+</VBox>
